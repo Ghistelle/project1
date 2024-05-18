@@ -23,17 +23,88 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  background-color: #f2f4fc;
+  background-color: #f4f6fc;
   color: #292e47;
 }
+/*-----nav-----*/
 
-section,
+.nav-links {
+  text-decoration: none;
+  color: #a5aac9;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+}
+
+#top-contact-btn {
+  background-color: #072ac8;
+  color:white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 16px;
+  text-decoration: none;
+}
+#navbar {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+}
+
+/* main----*/
+
+.stunning-design, h1 {
+  font-size: 3.9rem;
+  color: #292e47;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 30px 0 50px 0;
+}
+
+.stunning-design, p {
+  font-size: 1.3rem;
+  color: #6b708d;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 30px 0 50px 0;
+}
+
+main, img{
+  width: 100%;
+}
+
+
+.card1-img {
+  position: absolute;
+  left: -19%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  max-width: 57%;
+}
+
+.accept-img {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -25%;
+  bottom: -22%;
+  max-width: 57%;
+  z-index: 999;
+
+  
+}
+
+
+/*section,
 footer {
   max-width: 1063px;
   margin: auto;
@@ -44,7 +115,7 @@ footer {
 /* ------------------------------------------------------------------------ */
 
 /* ------------------------------ Splash page ------------------------------ */
-.splash {
+/*.splash {
   position: fixed;
   top: 0;
   left: 0;
@@ -96,7 +167,7 @@ footer {
 
 /* ------ CIRCULAR ANIMATION ------ */
 
-.circle2 {
+/*.circle2 {
   position: fixed;
   display: inline;
 }
@@ -224,47 +295,7 @@ footer {
   }
 }
 /* ------------------------------ Navbar ------------------------------ */
-nav {
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 75px auto;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #6c718b;
-  font-weight: 500;
-  font-size: 1.05rem;
-  margin: 0 14px 0 14px;
-}
-
-.nav-links a:hover {
-  color: #0082f3;
-  cursor: pointer;
-}
-
-.btn-blue {
-  background-color: #072ac8;
-  color: white;
-  font-weight: 500;
-  font-size: 1.05rem;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.link {
-  text-decoration: none;
-  color: #6c718b;
-  font-weight: 500;
-  font-size: 1.05rem;
-  margin: 0 14px 0 14px;
-}
-
-.btn-blue:hover {
-  background-color: #292e47;
-}
 
 /* ------------------------------ Header ------------------------------ */
 #main {
@@ -278,10 +309,7 @@ nav {
   width: 46%;
 }
 
-.txt-block h1 {
-  font-size: 3.9rem;
-  color: #292e47;
-}
+
 
 .btns-top-container {
   width: 100%;
@@ -293,40 +321,12 @@ nav {
   padding: 0;
 }
 
-.txt-block p {
-  font-size: 1.3rem;
-  color: #6b708d;
-  font-weight: 400;
-  line-height: 150%;
-  margin: 30px 0 50px 0;
-}
 
 #img-block {
   position: relative;
 }
 
-#main-img {
-  width: 100%;
-}
 
-#credit-card-img {
-  position: absolute;
-  left: -19%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
-  max-width: 57%;
-}
-
-#project-accepted-img {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: -25%;
-  bottom: -22%;
-  max-width: 57%;
-  z-index: 999;
-}
 
 /* ------------------------------ Recent projects ------------------------------ */
 .title {
