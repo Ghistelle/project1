@@ -100,9 +100,64 @@ main, img{
   max-width: 57%;
   z-index: 999;
 
-  
+}
+.logo-airbnb {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-google {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-microsoft {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-fedex {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-amazon {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-nike {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
+
+/*.img-logos1 {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.img-logos2 {
+  height: 50%;
+  width: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  }
+
+.logos-plus {
+  display:inline-flex;
+  
+}
 
 /*section,
 footer {
