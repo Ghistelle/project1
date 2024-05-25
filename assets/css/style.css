@@ -35,65 +35,46 @@ body {
 }
 /*-----nav-----*/
 
-.nav-links {
-  text-decoration:none;
-  color: #a5aac9;
-  font-weight: 500;
-  font-size: 1.05rem;
-  margin: 0 14px 0 14px;
-}
-
-
-#top-contact-btn {
-  background-color: #072ac8;
-  color:white;
-  font-weight: 500;
-  font-size: 1.05rem;
-  padding: 16px;
-  text-decoration: none;
-}
 #navbar {
   width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 75px auto;
-}
 
-/* main----*/
-#main {
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#main > div {
-  width: 46%;
 }
 
 
-
-.btns-top-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+.pages {
+  text-decoration:none;
+  color: #a5aac9;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+  
 }
 
 
-#img-block {
-  position: relative;
+#contact-btn {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 16px;
+  text-decoration: none;
 }
+
+
+
+
+
 /*---section0---*/
 
 .business-conteneur {
-display: grid;
-grid-template-columns: 40, 20, 40;
+display:flex;
+align-items:center ;
+gap: 50px;
+
 }
 
 .stunning-design > h1 {
@@ -102,7 +83,7 @@ text-align: justify;
   color: #292e47;
   font-weight: 600;
   line-height: 130%;
-  margin: 30px 0 50px 0;
+  margin: 50px;
 }
 
 .stunning-design > p {
@@ -111,22 +92,21 @@ text-align: justify;
   color: #6b708d;
   font-weight: 400;
   line-height: 150%;
-  margin: 30px 0 50px 0;
+  margin: 50px;
   
 }
-
-
-
 .hero-img {
-  width: 70%;
-  margin-top: 20px;
+  max-width: 70%;
  
+
+  }
+ 
+.img-form {
+  position: relative;
 }
-
-
 .card1-img {
   position: absolute;
-  left: 4%;
+  left: -5%;
   top: 0%;
   right: auto;
   bottom: auto;
@@ -136,105 +116,124 @@ text-align: justify;
 .accept-img {
   position: absolute;
   left: auto;
-  top: auto;
-  right: 4%;
-  bottom: -15%;
+  top: 70%;
+  right: 15%;
+  bottom: 0%;
   max-width: 34%;
   z-index: 999;
-
+}
+#in-touch {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 16px;
+  text-decoration: none;
 }
 
 
 
 /*---section1---*/
+
+.logos-plus {
+  display: flex;
+  margin-top: 70px;
+}
 .logo-airbnb {
-  height: 50%;
+  height: 40%;
   width: 20%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .logo-google {
-  height: 50%;
+  height: 40%;
   width: 20%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .logo-microsoft {
-  height: 50%;
+  height: 40%;
   width: 20%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .logo-fedex {
-  height: 50%;
+  height: 40%;
   width: 20%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .logo-amazon {
-  height: 50%;
+  height: 40%;
   width: 20%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .logo-nike {
-  height: 50%;
+  height: 40%;
   width: 20%;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*---section2---*/
 
 .Projects {
-  margin: 100px 0 75px 0;
+  margin: 10px;
 }
 
 section2 > h1 {
   font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.project-img1 {
-  width: 100%;
-  height: 240px;
-}
-.project-img2 {
-  width: 100%;
-  height: 240px;
-}
-.project-img3 {
-  width: 100%;
-  height: 240px;
-}
-
 .R-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
   grid-column-gap: 25px;
-  grid-row-gap: 0px;
+  grid-row-gap: 2px;
+
+  }
+
+.project-img1 {
+  width: 100%;
+  max-height: 240px;
 }
+.project-img2 {
+  width: 100%;
+  max-height: 240px;
+}
+.project-img3 {
+  width: 100%;
+  max-height: 240px;
+}
+
+
 
 .R-projects {
   background-color: white;
   padding-bottom: 20px;
 }
-
-
-.Projects > h3 {
+.p-title {
   font-size: 1.3rem;
   margin: 27px;
 }
 
 .Projects > p {
   font-size: 1.1rem;
-  margin: 0 27px 27px 27px;
+  margin: 27px;
+  text-align: left;
 }
 
-.Projects > a {
+.learn {
   text-decoration: none;
   font-weight: 500;
   color: #072ac8;
-  margin: 0 27px 27px 27px;
+  margin: 27 10px 10px 2px;
 }
+
+/*----section3---*/
+
 
 
