@@ -45,29 +45,24 @@ body {
 
 }
 
-
-.pages {
+.pages a {
   text-decoration: none;
   color: #a5aac9;
   font-weight: 500;
   font-size: 1.05rem;
   margin: 0 14px 0 14px;
-  display: flex;
 
-  
 }
 
 
-#contact-btn {
+#contact-btn a {
   background-color: #072ac8;
   color: white;
   font-weight: 500;
   font-size: 1.05rem;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
 }
-
-
 
 
 
@@ -368,4 +363,49 @@ margin: 20px;
   text-decoration: none;
   margin: 10px;
   color: #072ac8;
+}
+
+/*------section5------*/
+
+.contact-us {
+  position: relative;
+  background-color:rgb(249, 201, 112);
+  padding: 30px;
+  margin: 30px;
+}
+
+.contact-us h2 {
+text-align: center;
+}
+.contact-us p {
+  text-align: center;
+  }
+
+
+.form-groupe {
+  text-align: center;
+}
+.mail {
+  border: #072ac8;
+
+}
+
+.btn-subscribe {
+  color: #f4f6fc;
+  background-color: #072ac8;
+}
+
+/*----footer----*/
+
+.bottom-logo {
+  display: grid;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.bottom-logo a {
+text-decoration: none;
+color: #072ac8;
+
 }
