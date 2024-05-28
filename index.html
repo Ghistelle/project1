@@ -172,13 +172,16 @@
         <p>Let us help you!</p>
 
         <div class="form-groupe" >
-          <img src="./images/mail.svg" alt="">
+          <img class="img-mail" src="./images/mail.svg" alt="">
          
-        <form class="mail" action="mailto:votre-email@example.com">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Enter your email" required />
+        <form class="space-form" action="">
+                <input type="email" 
+                id="email" 
+                placeholder="      Enter your email"/>
         
-        <button id="btn-subscribe" type="submit">Subscribe</button>
+                 <input type="submit" 
+                 id="btn-subscribe" 
+                 value="Subscribe"/> 
       </form>
       </div>
     </div>
@@ -189,18 +192,14 @@
 
     <footer>
 
-<div class="bottom-logo">
-        <div class="bottom-img-logo">
+<div class="address-contenaire">
+  <div>
           <img
             src="./images/logos/circle.svg"
-            alt="Circle Agency Logo"
-          />
-        </div>
-
-        <div class="address">
-        <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</p>
-        </div>
+            alt="Circle Agency Logo"/>
         
+        <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</p>
+  </div>   
     
         <div class="more-infos">
             <a href="">Team</a>
@@ -210,7 +209,8 @@
             <a href="">Projects</a>
             <a href="">Privay Policy</a>
           </div>
-  
+    
+</div>
     </footer>
 <script src="./assets/js/script.js"></script> 
 <script src="./assets/js/loade-animation.js"></script>

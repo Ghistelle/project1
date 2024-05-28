@@ -269,7 +269,7 @@ margin: 20px;
 }
 
 .hear-our-clients p {
-  color: yellow;
+  color: #fce300;
   text-align: center;
   padding: 20px;
   margin: 20px 25px;
@@ -361,6 +361,7 @@ margin: 20px;
 
 .services-flex a {
   text-decoration: none;
+  font-weight: bold;
   margin: 10px;
   color: #072ac8;
 }
@@ -369,7 +370,7 @@ margin: 20px;
 
 .contact-us {
   position: relative;
-  background-color:rgb(249, 201, 112);
+  background-color:#ffc600;
   padding: 30px;
   margin: 30px;
 }
@@ -379,33 +380,48 @@ text-align: center;
 }
 .contact-us p {
   text-align: center;
+  color:#6b708d;
   }
 
 
 .form-groupe {
   text-align: center;
 }
-.mail {
+#email {
   border: #072ac8;
+
 
 }
 
-.btn-subscribe {
-  color: #f4f6fc;
+#btn-subscribe {
+  color: #fff;
   background-color: #072ac8;
+}
+
+/*.img-mail {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
 }
 
 /*----footer----*/
 
-.bottom-logo {
+.address-contenaire {
   display: grid;
+  grid-template-columns: 50% 50%;
   margin: 20px;
   padding: 10px;
+  
+}
+.more-infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 40px);
 }
 
-
-.bottom-logo a {
-text-decoration: none;
-color: #072ac8;
+.address-contenaire a {
+ text-decoration: none;
+ color: #072ac8;
+ font-weight: bold;
 
 }
