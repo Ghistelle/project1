@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    
+
+    
+    <script src="./assets/js/contact.js" defer></script>
+    <script src="./assets/js/loader-animation.js" defer></script>
+  </head>
+  <body>
+
+    <div class="splash">
+      <div class="circle2">
+        <div class="outer-circle"></div>
+        <div class="inner-circle"></div>
+        <div class="box box-top-left"></div>
+        <div class="box box-bottom-left"></div>
+        <div class="box box-bottom-right"></div>
+        <div class="box box-top-right"></div>
+      </div>
+    </div>
+
+    <div id="navbar">
+      <nav>
+       
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              src="./assets/images/logos/circle.svg"
+              alt="Circle Agency Logo"
+            />
+          </a>
+        </div>
+        
+        <div class="nav-links">
+          <a href="">Home</a>
+          <a href="">Projects</a>
+          <a href="">Services</a>
+          <a href="">About</a>
+          <a href="">Resources</a>
+        </div>
+        
+        <div id="top-contact-btn" class="btn-blue">
+          <a class="btn-blue" href="./contact.html">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+    
+    <section id="contact-main">
+      <div class="txt-title">
+        <h1>Contact Us</h1>
+        <div id="contact-form" class="form-container">
+          <form id="form-message">
+          
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required />
+            
+            <div class="email-phone">
+             
+              <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required />
+              </div>
+            </div>
+           
+            <label for="message">Write Your Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter your message here......"
+            ></textarea>
+            <button type="submit" class="btn-submit">Submit Form</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      
+      <div class="bottom-logo">
+        <div class="bottom-img-logo">
+          <img
+            src="./assets/images/logos/circle.svg"
+            alt="Circle Agency Logo"
+          />
+        </div>
+        <div class="address">
+          <p>
+            2972 Westheimer Rd. Santa Ana, <br />
+            Illinois 85486
+          </p>
+        </div>
+      </div>
+      
+      <div class="grid-links">
+        <a href="">Team</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+        <a href="">Press</a>
+        <a href="">Projects</a>
+        <a href="">Privay Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>
