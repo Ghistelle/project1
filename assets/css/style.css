@@ -339,7 +339,7 @@ margin: 20px;
   padding: 10px;
   margin: 30px;
 }
-.services-flex ul {
+.{
   display: flex;
   justify-content: space-around;
 }
@@ -424,4 +424,33 @@ text-align: center;
  color: #072ac8;
  font-weight: bold;
 
+}
+
+/*----responsive-----*/
+
+@media screen  and (max-width: 400px) {
+.business-conteneur {
+  flex-direction: column;
+  align-items:center;
+}
+}
+
+@media screen  and (max-width: 400px) {
+.R-projects ul {
+flex-direction: column;
+align-items:center;
+}
+}
+@media screen  and (max-width: 400px) {
+.services-flex ul {
+flex-direction: column;
+align-items:center;
+}
+}
+
+@media screen  and (max-width: 200px) {
+.address-contenaire {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr 1fr);
+}
 }
