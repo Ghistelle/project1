@@ -339,10 +339,10 @@ margin: 20px;
   padding: 10px;
   margin: 30px;
 }
-.{
+.Services {
   display: flex;
   justify-content: space-around;
-}
+} 
 
 
 .services-flex li {
@@ -355,7 +355,7 @@ margin: 20px;
   
 }
 
-.services-flex h2, p {
+.services-flex h2 p {
   margin: 10px;
 }
 
