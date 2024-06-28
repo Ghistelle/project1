@@ -256,9 +256,9 @@ margin: 20px;
 /*-----section3------*/
 .hear-our-clients {
   position: relative;
-  background-color: black;
+  background-color:#292e47;
   padding: 20px;
-  margin: 20px;
+  margin: 60px 40px;
   
 }
 .hear-our-clients h2 {
@@ -426,9 +426,156 @@ text-align: center;
 
 }
 
-/*----responsive-----*/
+/*----ctct html-----*/
 
+/* ---nav---*/
+nav {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+}
 
+.nav-links a {
+  text-decoration: none;
+  color: #6c718b;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+}
 
+.nav-links a:hover {
+  color: #0082f3;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #6c718b;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+}
+
+.btn-blue:hover {
+  background-color: #292e47;
+}
+
+/*---form---*/
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-phone div {
+  width: 49.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-main,
+#project-main {
+  padding: 0 14px 0 14px;
+}
+
+#contact-main .txt-title h1 {
+  padding-bottom: 70px;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6b708d;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 0;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+
+textarea {
+  border: 0;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 200px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-top: 7px;
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+
+.btn-submit {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.btn-submit:hover {
+  background-color: #292e47;
+
+}
+
+/*----footer html----*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.bottom-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.grid-links {
+  width: 60%;
+  text-align: center;
+}
+.email-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email-phone div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.txt-title h1 {
+  font-size: 2.4rem;
+  color: #292e47;
+}
+.subtitle h2,
+.subtitle h3 {
+  font-size: 1.2rem;
+}
 
 
